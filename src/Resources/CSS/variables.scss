@@ -1,0 +1,29 @@
+/* Color variables */
+$header-nav-bg: #faf9f7;
+$primary-red: #ef3d3d;
+$primary-light: #ffff;
+
+/* Text sizes */
+$text-10: 0.6em;
+$text-15: 0.9em;
+$text-20: 1.25em;
+$text-25: 1.563em;
+$text-30: 1.875em;
+
+/* Padding and Margin units */
+$p-1: 1em;
+$p-2: 2em;
+$p-3: 3em;
+$p-4: 4em;
+$p-5: 5em;
+
+/* Button Border Radius */
+$br-none: 0px;
+$br-rounded: 25px;
+
+/* fonts */
+/* Custom font => VarelaRound */
+@font-face {
+    font-family: 'VarelaRound';
+    src: local('VarelaRound-Regular'), url("../fonts/VarelaRound/VarelaRound-Regular.ttf");
+}
