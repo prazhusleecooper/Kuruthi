@@ -40,5 +40,9 @@
             color: $primary-red;
             font-weight: 600;
         }
+
+        .login-btn:hover, .login-btn:active, .login-btn:focus {
+            outline: none
+        }
     }
 }

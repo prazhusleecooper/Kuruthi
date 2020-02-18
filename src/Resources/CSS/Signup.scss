@@ -1,0 +1,72 @@
+@import "variables.scss";
+
+* {
+  font-family: VarelaRound;
+}
+
+/* Large screens */
+.sign-up-lg {
+
+  .primary-area-section{
+
+    .primary-area{
+      width: 25%;
+      margin: $p-2 0 0 0;
+
+      .heading-section {
+        width: 100%;
+        font-size: $text-40;
+        color: $heading-color;
+      }
+
+      .primary-area-hr {
+        border-top: 4px solid $primary-red;
+        width: 100%;
+      }
+
+      .text-input-label {
+        font-size: $text-25;
+      }
+
+      .emailInput, .passwordInput, .passConfirmInput {
+        height: $text-45;
+        width: 100%;
+        margin: 0 0 .5rem 0;
+        padding: 0 .5em 0 .5em;
+      }
+
+      .emailInput:focus, .passwordInput:focus, .passConfirmInput:focus {
+        outline: none;
+        box-shadow: 0 0 .3em $primary-red;          //box-shadow: $left-offset $right-offset $shadow-$size color;
+      }
+    }
+
+    .tc-text-section {
+        margin: $p-1 0 0 0;
+
+      .tc-text {
+
+      }
+    }
+
+    .submit-btn-section {
+      .submit-btn {
+        margin: $p-2 0 0 0 ;
+        padding: 0 $p-2 0 $p-2;
+        height: 4vh;
+        border-radius: $br-rounded;
+        border: 2px solid $primary-red;
+        background: $primary-red;
+        outline: none;
+        //Button Text
+        font-family: VarelaRound;
+        font-size: $text-15;
+        color: $primary-light;
+        font-weight: 600;
+      }
+      .submit-btn:hover, .submit-btn:active, .submit-btn:focus {
+        outline: none
+      }
+    }
+  }
+}

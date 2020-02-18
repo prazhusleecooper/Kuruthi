@@ -2,13 +2,20 @@
 $header-nav-bg: #faf9f7;
 $primary-red: #ef3d3d;
 $primary-light: #ffff;
+$heading-color: #707070;
+
 
 /* Text sizes */
+$text-5: 0.313em;
 $text-10: 0.6em;
 $text-15: 0.9em;
 $text-20: 1.25em;
 $text-25: 1.563em;
 $text-30: 1.875em;
+$text-35: 2.188em;
+$text-40: 2.5em;
+$text-45: 2.813em;
+$text-50: 3.125em;
 
 /* Padding and Margin units */
 $p-1: 1em;
@@ -27,3 +34,65 @@ $br-rounded: 25px;
     font-family: 'VarelaRound';
     src: local('VarelaRound-Regular'), url("../fonts/VarelaRound/VarelaRound-Regular.ttf");
 }
+
+//Convesion units
+/* PX to EM
+______________
+1px	    0.06em
+2px	    0.13em
+3px	    0.19em
+4px	    0.3em
+5px	    0.3em
+6px	    0.4em
+8px	    0.5em
+10px	0.6em
+12px	0.8em
+14px	0.9em
+15px	0.9em
+16px	1em
+18px	1.1em
+20px	1.3em
+24px	1.5em
+25px	1.6em
+28px	1.8em
+32px	2em
+36px	2em
+40px	3em
+44px	3em
+48px	3em
+50px	3em
+56px	4em
+64px	4em
+72px	5em
+75px	5em
+80px	5em
+90px	6em
+100px	6em
+*/
+/* EM to PX
+______________
+0.01em	0.16px
+0.03em	0.5px
+0.05em	0.8px
+0.08em	1.3px
+0.1em	1.6px
+0.15em	2px
+0.2em	3px
+0.5em	8px
+1em	    16px
+2em	    32px
+3em	    48px
+4em	    64px
+5em	    80px
+6em	    96px
+8em	    128px
+10em	160px
+15em	240px
+20em	320px
+30em	480px
+40em	640px
+50em	800px
+60em	960px
+80em	1280px
+100em	1600px
+*/
