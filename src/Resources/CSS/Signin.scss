@@ -11,12 +11,12 @@
 
         .primary-area{
             width: 25%;
-            margin: $p-2 0 0 0;
+            margin: $p-1 0 0 0;
 
             .heading-section {
                 width: 100%;
                 font-size: $text-40;
-                color: $heading-color;
+                color: $primary-grey;
             }
 
             .primary-area-hr {
@@ -33,10 +33,12 @@
                 width: 100%;
                 margin: 0 0 .5rem 0;
                 padding: 0 .5em 0 .5em;
+                border: 1px solid $text-input-grey;
             }
 
             .emailInput:focus, .passwordInput:focus {
                 outline: none;
+                border: 1px solid $text-input-grey;
                 box-shadow: 0 0 .3em $primary-red;          //box-shadow: $left-offset $right-offset $shadow-$size color;
             }
         }
@@ -60,5 +62,19 @@
                 outline: none
             }
         }
+
+        .sign-up-info {
+            padding: $p-1 0 0 0;
+            color: $primary-grey;
+
+            .sign-up-navlink {
+                color: $primary-red;
+            }
+
+            .sign-up-navlink:hover {
+                color: $primary-red;
+            }
+        }
+
     }
 }

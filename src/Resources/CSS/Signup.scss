@@ -8,15 +8,16 @@
 .sign-up-lg {
 
   .primary-area-section{
+    overflow-y: auto;
 
     .primary-area{
       width: 25%;
-      margin: $p-2 0 0 0;
+      margin: $p-1 0 0 0;
 
       .heading-section {
         width: 100%;
         font-size: $text-40;
-        color: $heading-color;
+        color: $primary-grey;
       }
 
       .primary-area-hr {
@@ -28,15 +29,17 @@
         font-size: $text-25;
       }
 
-      .emailInput, .passwordInput, .passConfirmInput {
+      .text-input{
         height: $text-45;
         width: 100%;
         margin: 0 0 .5rem 0;
         padding: 0 .5em 0 .5em;
+        border: 1px solid $text-input-grey;
       }
 
       .emailInput:focus, .passwordInput:focus, .passConfirmInput:focus {
         outline: none;
+        border: 1px solid $text-input-grey;
         box-shadow: 0 0 .3em $primary-red;          //box-shadow: $left-offset $right-offset $shadow-$size color;
       }
     }

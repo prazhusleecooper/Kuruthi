@@ -1,11 +1,12 @@
 import React, {Component} from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "../Resources/CSS/HeaderNav.scss";
+import {NavLink} from "react-router-dom";
 
 class HeaderNav extends Component {
     constructor(props) {
         super(props);
-        this.state = {}
+        this.state = {};
     }
 
     //Rendering methods
@@ -16,11 +17,11 @@ class HeaderNav extends Component {
         );
     };
 
-    //Login button
-    loginBtn = () => {
-        return(
-            <button className="login-btn">Signup</button>
-        );
+    //Sign-in button
+    signinBtn = () => {
+            return(
+                <NavLink to='/signin'><button className="login-btn">Sign in</button></NavLink>
+            );
     };
 
     render() {
@@ -36,7 +37,7 @@ class HeaderNav extends Component {
                     </div>
                     <div className="btn-area">
                         { this.emReqBtn() }
-                        { this.loginBtn() }
+                        { this.signinBtn() }
                     </div>
                 </div>
 
